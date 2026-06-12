@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0d0d1a"/>
+      <stop offset="100%" stop-color="#111128"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a84c"/>
+      <stop offset="100%" stop-color="#a8882e"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="0" y="0" width="1200" height="4" fill="url(#gold)"/>
+  <rect x="0" y="626" width="1200" height="4" fill="url(#gold)"/>
+  <text x="80" y="250" font-family="Georgia,serif" font-size="72" font-weight="700" fill="#ffffff">Alliance</text>
+  <text x="80" y="340" font-family="Georgia,serif" font-size="72" font-weight="700" fill="url(#gold)">Consultoria</text>
+  <text x="80" y="420" font-family="Arial,sans-serif" font-size="28" fill="#8888aa">Especialista em Licitações Públicas</text>
+  <rect x="80" y="470" width="300" height="4" rx="2" fill="url(#gold)"/>
+  <text x="80" y="520" font-family="Arial,sans-serif" font-size="20" fill="#8888aa">Sua empresa vencendo licitações sem dor de cabeça</text>
+  <rect x="920" y="180" width="200" height="200" rx="24" fill="#1a1a35" stroke="url(#gold)" stroke-width="2"/>
+  <text x="1020" y="310" font-family="Georgia,serif" font-size="80" font-weight="700" fill="url(#gold)" text-anchor="middle">A</text>
+</svg>
