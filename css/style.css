@@ -1238,6 +1238,33 @@ ul {
   transform: translateY(0);
 }
 
+/* ===== SOCIAL ICONS ===== */
+.footer__social {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.footer__social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 50%;
+  color: var(--text-muted);
+  transition: var(--transition);
+}
+
+.footer__social a:hover {
+  color: var(--gold);
+  background: rgba(201, 168, 76, 0.1);
+  border-color: rgba(201, 168, 76, 0.2);
+  transform: translateY(-3px);
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width: 1024px) {
   .hero__inner {
